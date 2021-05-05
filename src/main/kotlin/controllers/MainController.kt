@@ -59,6 +59,10 @@ class MainController : Application() {
         viewOfInference = scene.lookup("#fxInference") as ListView<HBox>
         inferenceChart = scene.lookup("#inferenceChart").initializeChart()
         initializeListOfDirectories()
+
+        stage.setOnCloseRequest {
+            stop()
+        }
     }
 
     @FXML
