@@ -6,7 +6,7 @@ import javafx.beans.property.SimpleStringProperty
 import javafx.beans.property.StringProperty
 import javafx.scene.control.Label
 
-//It can be null because not all of these nodes are used by the all views
+//These can be null because not all of these nodes are used by all the views
 class ResultSummaryView(
     devAccLabel: Label? = null,
     devLossLabel: Label? = null,
