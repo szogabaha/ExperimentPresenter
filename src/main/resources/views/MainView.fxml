@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.27424749163879597" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
+  <items>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="425.0" prefWidth="271.0">
+               <content>
+                  <ListView fx:id="fxListOfDirectories" onMouseClicked="#selectDirectoryFromList" />
+               </content>
+            </ScrollPane>
+            <HBox prefHeight="165.0" prefWidth="271.0" spacing="15">
+               <children>
+                  <Button maxWidth="Infinity" mnemonicParsing="false" onAction="#addExperiment" text="Add new experiment" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="20.0" right="30.0" top="50.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                     </padding></Button>
+                  <Button fx:id="compare" maxWidth="Infinity" mnemonicParsing="false" onAction="#pressCompareButton" style="-fx-background-color: #ddd;" textAlignment="CENTER" wrapText="true" text="Compare selected" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets right="20.0" top="50.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                     </padding></Button>
+               </children>
+            </HBox>
+         </children></VBox>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <BarChart fx:id="inferenceChart" layoutX="281.0" layoutY="30.0" prefHeight="282.0" prefWidth="407.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis autoRanging="false" side="LEFT" tickUnit="0.1" upperBound="1.0" />
+              </yAxis>
+            </BarChart>
+            <Label fx:id="fxStartDate" layoutX="13.0" layoutY="49.0" prefHeight="17.0" />
+            <Label fx:id="fxAccuracy" layoutX="10.0" layoutY="239.0" />
+            <Label fx:id="fxLoss" layoutX="159.0" layoutY="239.0" />
+            <Label fx:id="fxDuration" layoutX="14.0" layoutY="83.0" prefHeight="17.0" />
+            <Label fx:id="fxLocation" alignment="TOP_LEFT" layoutX="13.0" layoutY="122.0" prefHeight="112.0" prefWidth="250.0" wrapText="true" />
+            <VBox layoutX="78.0" layoutY="313.0" prefHeight="274.0" prefWidth="503.0">
+               <children>
+                  <HBox prefHeight="30.0" spacing="150">
+                     <children>
+                        <Label alignment="CENTER" maxWidth="Infinity" prefHeight="17.0" prefWidth="75.0" HBox.hgrow="ALWAYS" text="Epochs"/>
+                        <Label alignment="CENTER" maxWidth="Infinity" prefHeight="17.0" prefWidth="0.0" HBox.hgrow="ALWAYS" text="Inference results" />
+                     </children>
+                  </HBox>
+                  <HBox maxHeight="Infinity" prefHeight="202.0" prefWidth="767.0" spacing="120">
+                     <children>
+                        <ScrollPane fitToHeight="true" fitToWidth="true" maxWidth="Infinity" prefHeight="202.0" prefWidth="134.0" HBox.hgrow="ALWAYS">
+                           <content>
+                              <ListView fx:id="fxEpochs" prefHeight="200.0" prefWidth="200.0" />
+                           </content></ScrollPane>
+                        <ScrollPane fitToHeight="true" fitToWidth="true" maxWidth="Infinity" prefHeight="202.0" prefWidth="0.0" HBox.hgrow="ALWAYS">
+                           <content>
+                              <ListView fx:id="fxInference" prefHeight="200.0" prefWidth="200.0" />
+                           </content></ScrollPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

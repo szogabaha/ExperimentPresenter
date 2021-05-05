@@ -1,0 +1,144 @@
+[2021-04-30 21:24:07,714][train][INFO] - Epoch: 0
+[2021-04-30 21:24:07,714][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:24:07,714][train][INFO] -   dev accuracy: 0.20949392020702362  dev loss: 2.998387098312378
+[2021-04-30 21:24:16,479][train][INFO] - Epoch: 1
+[2021-04-30 21:24:16,479][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:24:16,479][train][INFO] -   dev accuracy: 0.2563096582889557  dev loss: 2.7153427600860596
+[2021-04-30 21:24:25,658][train][INFO] - Epoch: 2
+[2021-04-30 21:24:25,658][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:24:25,658][train][INFO] -   dev accuracy: 0.3022100031375885  dev loss: 2.4827494621276855
+[2021-04-30 21:24:34,407][train][INFO] - Epoch: 3
+[2021-04-30 21:24:34,407][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:24:34,407][train][INFO] -   dev accuracy: 0.3216947913169861  dev loss: 2.321201801300049
+[2021-04-30 21:24:43,057][train][INFO] - Epoch: 4
+[2021-04-30 21:24:43,057][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:24:43,057][train][INFO] -   dev accuracy: 0.35203346610069275  dev loss: 2.196305274963379
+[2021-04-30 21:24:51,817][train][INFO] - Epoch: 5
+[2021-04-30 21:24:51,817][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:24:51,817][train][INFO] -   dev accuracy: 0.3613181710243225  dev loss: 2.1213295459747314
+[2021-04-30 21:24:59,862][train][INFO] - Epoch: 6
+[2021-04-30 21:24:59,862][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:24:59,862][train][INFO] -   dev accuracy: 0.3827644884586334  dev loss: 2.03585147857666
+[2021-04-30 21:25:07,817][train][INFO] - Epoch: 7
+[2021-04-30 21:25:07,817][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:25:07,817][train][INFO] -   dev accuracy: 0.3920491635799408  dev loss: 1.9771041870117188
+[2021-04-30 21:25:15,782][train][INFO] - Epoch: 8
+[2021-04-30 21:25:15,782][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:25:15,782][train][INFO] -   dev accuracy: 0.40643391013145447  dev loss: 1.9211798906326294
+[2021-04-30 21:25:23,854][train][INFO] - Epoch: 9
+[2021-04-30 21:25:23,854][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:25:23,854][train][INFO] -   dev accuracy: 0.4163724482059479  dev loss: 1.8855596780776978
+[2021-04-30 21:25:31,878][train][INFO] - Epoch: 10
+[2021-04-30 21:25:31,878][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:25:31,878][train][INFO] -   dev accuracy: 0.4333725571632385  dev loss: 1.8594028949737549
+[2021-04-30 21:25:39,826][train][INFO] - Epoch: 11
+[2021-04-30 21:25:39,826][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:25:39,826][train][INFO] -   dev accuracy: 0.4327187240123749  dev loss: 1.851274847984314
+[2021-04-30 21:25:47,726][train][INFO] - Epoch: 12
+[2021-04-30 21:25:47,726][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:25:47,726][train][INFO] -   dev accuracy: 0.4442265033721924  dev loss: 1.818915605545044
+[2021-04-30 21:25:55,786][train][INFO] - Epoch: 13
+[2021-04-30 21:25:55,786][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:25:55,786][train][INFO] -   dev accuracy: 0.4489342272281647  dev loss: 1.806637167930603
+[2021-04-30 21:26:03,926][train][INFO] - Epoch: 14
+[2021-04-30 21:26:03,926][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:26:03,926][train][INFO] -   dev accuracy: 0.46972668170928955  dev loss: 1.754887580871582
+[2021-04-30 21:26:11,922][train][INFO] - Epoch: 15
+[2021-04-30 21:26:11,922][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:26:11,923][train][INFO] -   dev accuracy: 0.4726036489009857  dev loss: 1.7537760734558105
+[2021-04-30 21:26:19,886][train][INFO] - Epoch: 16
+[2021-04-30 21:26:19,886][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:26:19,887][train][INFO] -   dev accuracy: 0.47273439168930054  dev loss: 1.7455893754959106
+[2021-04-30 21:26:27,955][train][INFO] - Epoch: 17
+[2021-04-30 21:26:27,955][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:26:27,955][train][INFO] -   dev accuracy: 0.480319082736969  dev loss: 1.733148217201233
+[2021-04-30 21:26:36,104][train][INFO] - Epoch: 18
+[2021-04-30 21:26:36,104][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:26:36,104][train][INFO] -   dev accuracy: 0.474303662776947  dev loss: 1.7473585605621338
+[2021-04-30 21:26:44,002][train][INFO] - Epoch: 19
+[2021-04-30 21:26:44,002][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:26:44,002][train][INFO] -   dev accuracy: 0.48149600625038147  dev loss: 1.7305433750152588
+[2021-04-30 21:26:51,990][train][INFO] - Epoch: 20
+[2021-04-30 21:26:51,990][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:26:51,990][train][INFO] -   dev accuracy: 0.49104222655296326  dev loss: 1.7183996438980103
+[2021-04-30 21:26:59,998][train][INFO] - Epoch: 21
+[2021-04-30 21:26:59,998][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:26:59,998][train][INFO] -   dev accuracy: 0.5054269433021545  dev loss: 1.6835167407989502
+[2021-04-30 21:27:07,990][train][INFO] - Epoch: 22
+[2021-04-30 21:27:07,990][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:27:07,990][train][INFO] -   dev accuracy: 0.5004577040672302  dev loss: 1.732712984085083
+[2021-04-30 21:27:15,794][train][INFO] - Epoch: 23
+[2021-04-30 21:27:15,794][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:27:15,794][train][INFO] -   dev accuracy: 0.5117039084434509  dev loss: 1.6941925287246704
+[2021-04-30 21:27:23,666][train][INFO] - Epoch: 24
+[2021-04-30 21:27:23,667][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:27:23,667][train][INFO] -   dev accuracy: 0.5198116898536682  dev loss: 1.6786798238754272
+[2021-04-30 21:27:31,540][train][INFO] - Epoch: 25
+[2021-04-30 21:27:31,540][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:27:31,540][train][INFO] -   dev accuracy: 0.5096116065979004  dev loss: 1.725119709968567
+[2021-04-30 21:27:39,426][train][INFO] - Epoch: 26
+[2021-04-30 21:27:39,426][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:27:39,426][train][INFO] -   dev accuracy: 0.5179809331893921  dev loss: 1.722657561302185
+[2021-04-30 21:27:47,226][train][INFO] - Epoch: 27
+[2021-04-30 21:27:47,226][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:27:47,226][train][INFO] -   dev accuracy: 0.5245194435119629  dev loss: 1.689890742301941
+[2021-04-30 21:27:55,114][train][INFO] - Epoch: 28
+[2021-04-30 21:27:55,114][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:27:55,114][train][INFO] -   dev accuracy: 0.536027193069458  dev loss: 1.680259346961975
+[2021-04-30 21:28:03,090][train][INFO] - Epoch: 29
+[2021-04-30 21:28:03,090][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:28:03,090][train][INFO] -   dev accuracy: 0.5306656360626221  dev loss: 1.7223784923553467
+[2021-04-30 21:28:11,090][train][INFO] - Epoch: 30
+[2021-04-30 21:28:11,090][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:28:11,090][train][INFO] -   dev accuracy: 0.533019483089447  dev loss: 1.7082926034927368
+[2021-04-30 21:28:19,051][train][INFO] - Epoch: 31
+[2021-04-30 21:28:19,051][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:28:19,051][train][INFO] -   dev accuracy: 0.5327579379081726  dev loss: 1.7024271488189697
+[2021-04-30 21:28:26,910][train][INFO] - Epoch: 32
+[2021-04-30 21:28:26,910][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:28:26,910][train][INFO] -   dev accuracy: 0.5437426567077637  dev loss: 1.6714612245559692
+[2021-04-30 21:28:34,918][train][INFO] - Epoch: 33
+[2021-04-30 21:28:34,918][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:28:34,918][train][INFO] -   dev accuracy: 0.5412580370903015  dev loss: 1.7011818885803223
+[2021-04-30 21:28:42,782][train][INFO] - Epoch: 34
+[2021-04-30 21:28:42,782][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:28:42,782][train][INFO] -   dev accuracy: 0.5425657033920288  dev loss: 1.7435333728790283
+[2021-04-30 21:28:50,630][train][INFO] - Epoch: 35
+[2021-04-30 21:28:50,630][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:28:50,630][train][INFO] -   dev accuracy: 0.5417810678482056  dev loss: 1.6973518133163452
+[2021-04-30 21:28:58,518][train][INFO] - Epoch: 36
+[2021-04-30 21:28:58,518][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:28:58,518][train][INFO] -   dev accuracy: 0.5564273595809937  dev loss: 1.6801937818527222
+[2021-04-30 21:29:06,999][train][INFO] - Epoch: 37
+[2021-04-30 21:29:06,999][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:29:06,999][train][INFO] -   dev accuracy: 0.5402118563652039  dev loss: 1.7380130290985107
+[2021-04-30 21:29:15,538][train][INFO] - Epoch: 38
+[2021-04-30 21:29:15,539][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:29:15,539][train][INFO] -   dev accuracy: 0.5460965037345886  dev loss: 1.773729681968689
+[2021-04-30 21:29:24,223][train][INFO] - Epoch: 39
+[2021-04-30 21:29:24,224][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:29:24,224][train][INFO] -   dev accuracy: 0.548058032989502  dev loss: 1.7520153522491455
+[2021-04-30 21:29:32,742][train][INFO] - Epoch: 40
+[2021-04-30 21:29:32,743][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:29:32,743][train][INFO] -   dev accuracy: 0.5434811115264893  dev loss: 1.7880613803863525
+[2021-04-30 21:29:41,342][train][INFO] - Epoch: 41
+[2021-04-30 21:29:41,342][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:29:41,342][train][INFO] -   dev accuracy: 0.5527657866477966  dev loss: 1.7649869918823242
+[2021-04-30 21:29:49,964][train][INFO] - Epoch: 42
+[2021-04-30 21:29:49,964][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:29:49,965][train][INFO] -   dev accuracy: 0.543350338935852  dev loss: 1.7843735218048096
+[2021-04-30 21:29:58,539][train][INFO] - Epoch: 43
+[2021-04-30 21:29:58,539][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:29:58,539][train][INFO] -   dev accuracy: 0.553027331829071  dev loss: 1.7803258895874023
+[2021-04-30 21:30:06,518][train][INFO] - Epoch: 44
+[2021-04-30 21:30:06,518][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:30:06,518][train][INFO] -   dev accuracy: 0.551719605922699  dev loss: 1.7885663509368896
+[2021-04-30 21:30:14,370][train][INFO] - Epoch: 45
+[2021-04-30 21:30:14,370][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:30:14,370][train][INFO] -   dev accuracy: 0.5568196773529053  dev loss: 1.7668778896331787
+[2021-04-30 21:30:22,334][train][INFO] - Epoch: 46
+[2021-04-30 21:30:22,334][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:30:22,334][train][INFO] -   dev accuracy: 0.5511965751647949  dev loss: 1.7723720073699951
+[2021-04-30 21:30:30,190][train][INFO] - Epoch: 47
+[2021-04-30 21:30:30,191][train][INFO] -   train accuracy: 0  train loss: 0
+[2021-04-30 21:30:30,191][train][INFO] -   dev accuracy: 0.5576043128967285  dev loss: 1.7865957021713257

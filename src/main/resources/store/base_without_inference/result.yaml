@@ -1,0 +1,7 @@
+data_language: all
+dev_acc: 0.5421733856201172
+dev_loss: 1.6977310180664062
+running_time: 169.562063
+start_time: 2021-04-30 22:14:04.094705
+train_acc: 0.0
+train_loss: 0.0

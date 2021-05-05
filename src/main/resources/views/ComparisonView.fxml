@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ComparisonController">
+   <children>
+      <ScatterChart fx:id="fxscatterchart" layoutX="495.0" layoutY="45.0" prefHeight="375.0" prefWidth="464.0">
+        <xAxis>
+          <NumberAxis autoRanging="false" side="BOTTOM" tickUnit="0.1" upperBound="1.0" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis autoRanging="false" side="LEFT" tickUnit="0.1" upperBound="1.0" />
+        </yAxis>
+      </ScatterChart>
+      <Button fx:id="pressStepBackButton" layoutX="727.0" layoutY="492.0" mnemonicParsing="false" onAction="#pressStepBackButton" prefHeight="44.0" prefWidth="111.0" text="Back" />
+      <Label fx:id="fxnameone" alignment="TOP_LEFT" layoutX="104.0" layoutY="69.0" prefHeight="44.0" prefWidth="100.0" wrapText="true" />
+      <Label fx:id="fxnametwo" alignment="TOP_LEFT" layoutX="311.0" layoutY="69.0" prefHeight="38.0" prefWidth="100.0" wrapText="true" />
+      <Label fx:id="fxaccone" layoutX="104.0" layoutY="163.0" />
+      <Label fx:id="fxacctwo" layoutX="311.0" layoutY="163.0" />
+      <Label fx:id="fxtimeone" layoutX="101.0" layoutY="120.0" />
+      <Label fx:id="fxtimetwo" layoutX="311.0" layoutY="120.0" />
+      <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="104.0" layoutY="272.0" prefHeight="200.0" prefWidth="150.0">
+         <content>
+            <ListView fx:id="fxinfcomp1" prefHeight="200.0" prefWidth="200.0" />
+         </content></ScrollPane>
+      <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="300.0" layoutY="272.0" prefHeight="200.0" prefWidth="150.0">
+         <content>
+            <ListView fx:id="fxinfcomp2" prefHeight="200.0" prefWidth="200.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
